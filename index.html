@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaquin Arzadon - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loader" class="loader-wrapper">
+        <div class="loader-content">
+            <div class="cyber-spinner"></div>
+            <p class="loader-text">LOADING WEBSITE...</p>
+        </div>
+    </div>
+
+    <header class="navbar">
+        <a href="#home" style="text-decoration: none;">
+            <div class="logo">
+                <div class="profile-toggle">
+                    <img src="assets/cube_tech_icon-removebg-preview.png" alt="Profile" class="icon-white">
+                    <img src="assets/cube_tech_icon_cyan-removebg-preview.png" alt="Profile Hover" class="icon-cyan">
+                </div>
+            </div>
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+            <a href="#contact" class="btn-contact-nav">CONTACT ME</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text hidden-element">
+                <h3>Hi, I am</h3>
+                <h1>Joaquin Arzadon</h1>
+                <h2 class="cyan-text">Data Scientist/Machine Learning Engineer</h2>
+            </div>
+            <div class="hero-image hidden-element delay-1">
+                <img src="assets/background-removed-background-removed.png" alt="Futuristic Render">
+            </div>
+        </div>
+    </section>
+
+    <div class="dataflow-banner hidden-element">
+        <h2>DataFlow Solutions</h2>
+        <p class="hidden-element delay-1">At DataFlow Solutions, I worked on developing advanced predictive analytics
+            solutions for financial services
+            organizations. My primary focus was building machine learning models that helped companies make better
+            data-driven decisions, particularly in the areas of risk assessment, fraud detection, and customer behavior
+            analysis. I designed and implemented predictive models that analyzed large financial datasets to identify
+            patterns related to credit risk, loan default probability, and customer segmentation.</p>
+        <a href="javascript:void(0);" class="btn-readmore hidden-element delay-2">READ MORE</a>
+    </div>
+
+    <section class="section-bg" id="about">
+        <div class="section-title hidden-element">
+            <h2 class="cyan-box">ABOUT ME</h2>
+        </div>
+        <p class="about-text hidden-element delay-1">
+            I'm a Computer Science student specializing in Data Science, with a strong interest in transforming raw data
+            into meaningful insights that help solve real-world problems. My academic journey has allowed me to develop
+            a solid foundation in programming, data analysis, and machine learning, while also exploring how data-driven
+            technologies can improve decision-making in different industries.
+        </p>
+        <div class="btn-explore hidden-element delay-1">
+            <span class="btn-explore-text">EXPLORE</span>
+        </div>
+        <div class="about-cards">
+            <div class="about-card hidden-element delay-1">
+                <img src="assets/brain logo no bg.png" alt="Machine Learning" class="card-logo">
+                <div class="card-info">
+                    <h4>Machine Learning</h4>
+                    <p>Expert in supervised/unsupervised learning, deep learning, and model deployment at scale.</p>
+                </div>
+            </div>
+            <div class="about-card hidden-element delay-2">
+                <img src="assets/data engineering logo.png" alt="Data Engineering" class="card-logo">
+                <div class="card-info">
+                    <h4>Data Engineering</h4>
+                    <p>Building robust data pipelines, ETL processes, and cloud infrastructure for ML workflows.</p>
+                </div>
+            </div>
+            <div class="about-card hidden-element delay-3">
+                <img src="assets/analytics logo no bg.png" alt="Data Analytics" class="card-logo">
+                <div class="card-info">
+                    <h4>Data Analytics and Insights</h4>
+                    <p>Transforming raw data into compelling visualizations and actionable business intelligence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-bg" id="skills">
+        <div class="section-title hidden-element">
+            <h2 class="cyan-box">Technical skills</h2>
+        </div>
+        <div class="skills-container">
+            <div class="skills-group">
+                <h3 class="hidden-element">USING NOW:</h3>
+                <div class="skills-grid">
+                    <div class="skill-item hidden-element delay-1">
+                        <img src="assets/python logo no bg.png" alt="Python" class="skill-logo">
+                        <span>PYTHON</span>
+                    </div>
+                    <div class="skill-item hidden-element delay-2">
+                        <img src="assets/react_logo-removebg-preview.png" alt="React" class="skill-logo">
+                        <span>REACT</span>
+                    </div>
+                    <div class="skill-item hidden-element delay-3">
+                        <img src="assets/git_logo-removebg-preview.png" alt="Git" class="skill-logo">
+                        <span>GIT</span>
+                    </div>
+                    <div class="skill-item hidden-element delay-4">
+                        <img src="assets/sql_logo-removebg-preview.png" alt="MySQL" class="skill-logo">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-group">
+                <h3 class="hidden-element">LEARNING:</h3>
+                <div class="skills-grid">
+                    <div class="skill-item hidden-element delay-1">
+                        <img src="assets/c_logo-removebg-preview.png" alt="C" class="skill-logo">
+                        <span>C</span>
+                    </div>
+                    <div class="skill-item hidden-element delay-2">
+                        <img src="assets/c++_logo-removebg-preview.png" alt="C++" class="skill-logo">
+                        <span>C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-bg" id="portfolio">
+        <div class="section-title hidden-element">
+            <h2 class="cyan-box">Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card hidden-element delay-1">
+                <img src="assets/fraud detection project pic.jpg" alt="Fraud Detection">
+                <div class="project-content">
+                    <h4>Real-time Fraud Detection</h4>
+                    <p>Developed a real-time fraud detection system processing 10K+ transactions per second with
+                        sub-100ms latency using streaming ML.</p>
+                    <div class="project-buttons">
+                        <a href="javascript:void(0);" class="btn-cyan-outline">CODE</a>
+                        <a href="javascript:void(0);" class="btn-black">DEMO</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card hidden-element delay-2">
+                <img src="assets/ai chatbot.webp" alt="AI Chatbot">
+                <div class="project-content">
+                    <h4>AI-Chatbot</h4>
+                    <p>Built an intelligent conversational AI chatbot using natural language processing and machine
+                        learning techniques. Designed to understand user queries, generate context-aware responses, and
+                        automate basic support tasks in real time.</p>
+                    <div class="project-buttons">
+                        <a href="javascript:void(0);" class="btn-cyan-outline">CODE</a>
+                        <a href="javascript:void(0);" class="btn-black">DEMO</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card hidden-element delay-3">
+                <img src="assets/recommendation engine project pic.png" alt="Recommendation Engine">
+                <div class="project-content">
+                    <h4>Recommendation Engine</h4>
+                    <p>Developed a hybrid recommendation system combining collaborative and content-based filtering,
+                        increasing user engagement by 45%.</p>
+                    <div class="project-buttons">
+                        <a href="javascript:void(0);" class="btn-cyan-outline">CODE</a>
+                        <a href="javascript:void(0);" class="btn-black">DEMO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-wrapper hidden-element">
+            <a href="javascript:void(0)" class="btn-view-all">View All Projects</a>
+        </div>
+    </section>
+
+    <section class="section-bg" id="contact">
+        <div class="section-title hidden-element">
+            <h2 class="cyan-box">C O N T A C T</h2>
+        </div>
+        <div class="decorative-line hidden-element"><span>\\\///</span></div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-box hidden-element delay-1">
+                    <i class="fa-regular fa-envelope"></i>
+                    <div>
+                        <h5>EMAIL</h5>
+                        <p>arzadonjoaquin@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-box hidden-element delay-2">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <div>
+                        <h5>PHONE</h5>
+                        <p>+63 09238642388</p>
+                    </div>
+                </div>
+                <div class="info-box hidden-element delay-3">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h5>LOCATION</h5>
+                        <p>Philippines, Pangasinan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form hidden-element delay-2">
+                <form>
+                    <input type="text" placeholder="ENTER NAME">
+                    <input type="email" placeholder="ENTER EMAIL">
+                    <input type="text" placeholder="PHONE NUMBER">
+                    <textarea placeholder="YOUR MESSAGE" rows="4"></textarea>
+                    <button type="submit" class="btn-submit">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#home" class="back-to-top">
+            <i class="fa-solid fa-angles-up"></i>
+            <p>BACK TO TOP</p>
+        </a>
+        <div class="social-links">
+            <a href="javascript:void(0)"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="javascript:void(0)"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
+            <a href="javascript:void(0)"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+        <p class="copyright">@2026 Joaquin Arzadon All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('load', function () {
+            const loader = document.getElementById('loader');
+            setTimeout(() => {
+                loader.classList.add('fade-out');
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                }, 500);
+            }, 2000);
+        });
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.15
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show-element');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.hidden-element').forEach((el) => {
+            observer.observe(el);
+        });
+
+    </script>
+</body>
+
+</html>
